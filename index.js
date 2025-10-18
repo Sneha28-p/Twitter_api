@@ -48,7 +48,7 @@ app.post("/tweets",(req,res)=>{
     // console.log(req.body);
     let {username,content}=req.body;
     let id=uuidv4();
-    posts.push({id,username,content});
+    tweets.push({id,username,content});
     // res.send("post is working");
     res.redirect("/tweets");
 });
