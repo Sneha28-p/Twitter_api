@@ -42,8 +42,10 @@ cd Twitter_clone
    npm install
 
 3.**Run the server:**
+---
   For development (auto-reload):
       nodemon index.js
+---
   For production:
       node index.js
 
